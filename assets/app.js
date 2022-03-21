@@ -2,54 +2,39 @@
 let text = prompt ('Введите сумму');
 
 
-const alphabet = {
-    'A': 'Alfa',
-    'B': 'Bravo',
-    'C': 'Charlie',
-    'D': 'Delta',
-    'E': 'Echo',
-    'F': 'Foxtrot',
-    'G': 'Golf',
-    'H': 'Hotel',
-    'I': 'India',
-    'J': 'Juliet',
-    'K': 'Kilo',
-    'L': 'Lima',
-    'M': 'Mike',
-    'N': 'November',
-    'O': 'Oscar',
-    'P': 'Papa',
-    'Q': 'Quebec',
-    'R': 'Romeo',
-    'S': 'Sierra',
-    'T': 'Tango',
-    'U': 'Uniform',
-    'V': 'Victor',
-    'W': 'Whiskey',
-    'X': 'X-ray',
-    'Y': 'Yankee',
-    'Z': 'Zulu',
-}
+const Num1 = [
+    '1': 'одна',
+    '2': 'дві',
+    '3': 'три',
+    '4': 'чотири',
+    '5': 'пять',
+    '6': 'шість',
+    '7': 'сім',
+    '8': 'вісім',
+    '9': 'девять',
+    '10': 'десять',
+    '11': 'одинадцять',
+    '12': 'дванадцять',
+    '13': 'тринадцять',
+    '14': 'чотирнадцять',
+    '15': 'пятнадцять',
+    '16': 'шістнадцять',
+    '17': 'сімнадцять',
+    '18': 'вісімнадцять',
+    '19': 'девятнадцять',
+    ' ': ' ',
+   ]
 
-for (let item in alphabet) {if (item===text) 
-    {console.log (alphabet[item])}}
-
-
-const number1 = {
-    '1': 'One',
-    '2': 'Two',
-    '3': 'Three',
-    '4': 'Fouth',
-    '5': 'Five',
-    '6': 'Six',
-    '7': 'Seven',
-    '8': 'Eight',
-    '9': 'Nine',
-    '0': 'Zero',
-}
-
-for (let item in number1) {if (item===text) 
-    {console.log (number1[item])}}
-
+   const Num2 = [
+    '20': 'одна',
+    '30': 'дві',
+    '40': 'три',
+    '50': 'чотири',
+    '60': 'пять',
+    '70': 'шість',
+    '80': 'сім',
+    '90': 'вісім',
+    ' ': ' ',
+   ]
 
 console.log (alphabet[text[0]],alphabet[text[1]],number1[text[2]],number1[text[3]],number1[text[4]],number1[text[5]]);
